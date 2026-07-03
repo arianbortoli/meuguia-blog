@@ -1,0 +1,23 @@
+name: Trigger site rebuild
+
+# Sempre que um post é adicionado/editado na main deste repo de conteúdo,
+# dispara o Deploy Hook da Vercel — o site do produto reconstrói e assa o
+# post novo em minutos. A URL do hook vive no secret VERCEL_DEPLOY_HOOK
+# (Settings > Secrets and variables > Actions deste repo).
+on:
+  push:
+    branches: [main]
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel Deploy Hook
+        run: |
+          if [ -z "${{ secrets.VERCEL_DEPLOY_HOOK }}" ]; then
+            echo "::error::VERCEL_DEPLOY_HOOK secret não configurado neste repo."
+            exit 1
+          fi
+          echo "Disparando rebuild na Vercel..."
+          curl -fsS -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}"
+          echo "Deploy Hook disparado com sucesso."
