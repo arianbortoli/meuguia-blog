@@ -16,7 +16,7 @@ heroImageCredit:
   source: "Unsplash"
   sourceUrl: "https://unsplash.com/photos/aerial-photography-of-vehicles-passing-between-high-rise-buildings-WBGjg0DsO_g"
 excerpt: "Madri vai ser assunto o ano inteiro depois do título de 2026. Quem tiver o que dizer sobre o destino quando o cliente perguntar sai na frente."
-metaDescription: "Madri foi eleita o melhor destino da Europa em 2026. A ficha do destino para agências: perfis de cliente, roteiro além do óbvio e detalhes práticos."
+metaDescription: "Madri foi eleita o melhor destino da Europa em 2026. Para qual perfil de cliente ela fecha, o que colocar no roteiro além do óbvio e os detalhes práticos."
 keyword: "melhor destino da Europa em 2026"
 ---
 
