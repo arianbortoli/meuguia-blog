@@ -1,5 +1,6 @@
 ---
 title: "Como salvar sua viagem como um aplicativo no celular"
+seoTitle: "Salvar sua viagem como um aplicativo no celular"
 slug: salvar-viagem-como-app-celular
 publishedAt: "2026-07-01"
 category: produto

@@ -1,5 +1,6 @@
 ---
 title: "Briefing cliente agência de viagens: 4 perguntas que mudam o roteiro"
+seoTitle: "Briefing cliente agência de viagens: 4 perguntas"
 slug: briefing-cliente-4-perguntas
 publishedAt: "2026-04-23"
 category: tecnica

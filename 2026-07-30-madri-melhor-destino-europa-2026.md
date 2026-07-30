@@ -1,5 +1,6 @@
 ---
 title: "Madri, melhor destino da Europa em 2026: o que vender além do Prado"
+seoTitle: "Madri: melhor destino da Europa em 2026"
 slug: madri-melhor-destino-europa-2026
 publishedAt: "2026-07-30"
 category: protagonismo
